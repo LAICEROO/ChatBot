@@ -1,0 +1,137 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": [
+      "hello",
+      "hi",
+      "hey"
+    ],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": [
+      "see you",
+      "goodbye",
+      "bye"
+    ],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": [
+      "nice",
+      "to",
+      "meet",
+      "you"
+    ],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": [
+      "nice",
+      "meet",
+      "you"
+    ]
+  },
+  {
+    "response_type": "question",
+    "user_input": [
+      "how",
+      "to",
+      "learn",
+      "code",
+      "coding",
+      "apps"
+    ],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": [
+      "learn",
+      "code",
+      "apps"
+    ]
+  },
+  {
+    "response_type": "question",
+    "user_input": [
+      "refund",
+      "how",
+      "can",
+      "I",
+      "get"
+    ],
+    "bot_response": "We don't offer refunds for free education.",
+    "required_words": [
+      "refund",
+      "i"
+    ]
+  },
+  {
+    "response_type": "question",
+    "user_input": [
+      "how",
+      "are",
+      "you"
+    ],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": [
+      "how",
+      "are",
+      "you"
+    ]
+  },
+  {
+    "response_type": "question",
+    "user_input": [
+      "what",
+      "are",
+      "you",
+      "doing"
+    ],
+    "bot_response": "I'm waiting for your questions.",
+    "required_words": [
+      "what",
+      "are",
+      "you",
+      "doing"
+    ]
+  },
+  {
+    "user_input": [
+      "weather"
+    ],
+    "bot_response": "I can't tell you, i don't have information about the weather condiotion.",
+    "required_words": [
+      "weather",
+      "outside"
+    ]
+  },
+  {
+    "response_type": "opinion",
+    "user_input": [
+      "favorite",
+      "programming",
+      "language"
+    ],
+    "bot_response": "I don't have a favorite, but many developers enjoy working with Python.",
+    "required_words": [
+      "favorite",
+      "programming",
+      "language"
+    ]
+  },
+  {
+    "response_type": "advice",
+    "user_input": [
+      "health",
+      "tip",
+      "wellness"
+    ],
+    "bot_response": "Remember to stay hydrated and get enough sleep for optimal health!",
+    "required_words": [
+      "health",
+      "tip"
+    ]
+  }
+  
+]
